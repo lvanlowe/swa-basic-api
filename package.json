@@ -1,0 +1,63 @@
+{
+  "name": "basic-sample",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build --configuration production",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "swa:start": "swa start app",
+    "swa:login": "swa deploy app",
+    "swa:deploy": "swa login"
+  },
+  "private": true,
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "@angular/animations": "^18.0.2",
+    "@angular/cdk": "^18.0.2",
+    "@angular/common": "^18.0.2",
+    "@angular/compiler": "^18.0.2",
+    "@angular/core": "^18.0.2",
+    "@angular/forms": "^18.0.2",
+    "@angular/material": "^18.0.2",
+    "@angular/platform-browser": "^18.0.2",
+    "@angular/platform-browser-dynamic": "^18.0.2",
+    "@angular/platform-server": "^18.0.2",
+    "@angular/router": "^18.0.2",
+    "@ngrx/data": "^18.0.1",
+    "@ngrx/effects": "^18.0.1",
+    "@ngrx/operators": "^18.0.0",
+    "@ngrx/store": "^18.0.1",
+    "@ngrx/store-devtools": "^18.0.1",
+    "bulma": "^0.9.2",
+    "core-js": "^3.6.4",
+    "font-awesome": "^4.7.0",
+    "minimist": "^1.2.5",
+    "rxjs": "~7.8.1",
+    "tslib": "^2.5.0",
+    "zone.js": "^0.14.7"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^18.0.3",
+    "@angular/cli": "^18.0.3",
+    "@angular/compiler-cli": "^18.0.2",
+    "@types/jasmine": "~4.3.1",
+    "@types/jasminewd2": "~2.0.10",
+    "@types/node": "^20.14.9",
+    "jasmine-core": "~4.6.0",
+    "karma": "~6.4.2",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "^2.0.0",
+    "postcss-import": "^15.1.0",
+    "postcss-loader": "^7.3.3",
+    "postcss-scss": "^4.0.7",
+    "tailwindcss": "^3.3.3",
+    "typescript": "~5.4.5"
+  }
+}
