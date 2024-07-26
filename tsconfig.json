@@ -2,7 +2,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./dist/basic-sample",
+    "outDir": "./dist/swa-basic-api",
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
